@@ -48,6 +48,11 @@ useEffect(()=>{
         <div className='flex flex-wrap justify-center gap-10 mt-10'>
           {currentUsers.map((item)=>(<Card name={item.name}
                                     company={item.company.name} 
+                                    email={item.email}
+                                    phone={item.phone}
+                                    website={item.website}
+                                    username={item.username}
+                                    addres={item.address.street}
                                     />))} 
         </div>
         <div className="flex justify-center mt-10">
