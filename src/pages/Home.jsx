@@ -1,6 +1,6 @@
 import React from 'react'
-import Layout from './component/Layout'
-import Card from './component/Card'
+import Layout from '../component/Layout'
+import Card from '../component/Card'
 import { useState,useEffect } from "react";
 import axios from "axios";
 

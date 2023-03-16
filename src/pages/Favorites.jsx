@@ -3,11 +3,9 @@ import Layout from '../component/Layout'
 
 const Favorites = () => {
   return (
-<div className=''>
 <Layout>
 
 </Layout>
-</div>
   )
 }
 
