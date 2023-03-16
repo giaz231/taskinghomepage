@@ -10,7 +10,7 @@ const Card = ({name,company,email,phone,website,username,addres}) => {
     <h2 className="card-title">{name}</h2>
     <p>{company}</p>
     <div className="card-actions justify-end">
-    <label htmlFor="my-modal-4" className="btn">
+    <label htmlFor="my-modal-4" className="btn bg-usee-blue">
             Details
           </label>
           <input type="checkbox" id="my-modal-4" className="modal-toggle" />
