@@ -3,7 +3,6 @@ import Layout from '../component/Layout'
 import Card from '../component/Card'
 import { useState,useEffect } from "react";
 import axios from "axios";
-import usee from "../assets/usee.png";
 import Hero from "../component/Hero";
 
 const Home = () => {
