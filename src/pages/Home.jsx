@@ -42,13 +42,13 @@ const Home = () => {
         <div className="hero-content text-center grid gap-10 ">
           <div className="my-20 flex flex-auto pb-10">
             <div>
-              <h2 className="sm:text-5xl font-bold text-usee-grey ">
+              <h2 className="sm:text-2xl xl:text-5xl font-bold text-usee-grey">
                 An employee
               </h2>
             </div>
             <div className="mx-20 px-10"></div>
             <div>
-              <h2 className="sm:text-5xl font-bold text-usee-grey ">
+              <h2 className="sm:text-2xl xl:text-5xl font-bold text-usee-grey ">
                 you can see
               </h2>
             </div>
