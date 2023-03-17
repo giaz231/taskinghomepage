@@ -46,7 +46,7 @@ const Home = () => {
                 An employee
               </h2>
             </div>
-            <div className="mx-20 px-10"></div>
+            <div className="mx-10 lg:mx-20 px-10"></div>
             <div>
               <h2 className="sm:text-2xl xl:text-5xl font-bold text-usee-grey ">
                 you can see
