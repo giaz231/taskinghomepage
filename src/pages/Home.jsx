@@ -41,12 +41,18 @@ const Home = () => {
       <Hero />
       <div className="hero bg-alta-light text-alta-dark ">
         <div className="hero-content text-center grid gap-10 ">
-          <div className="my-20">
-            <h2 className="text-5xl font-bold text-usee-grey">
-              An employee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp; you can see
-            </h2>
-
+          <div className="my-20 flex flex-auto pb-10">
+            <div>
+              <h2 className="sm:text-5xl font-bold text-usee-grey ">
+                An employee
+              </h2>
+            </div>
+            <div className="mx-20 px-20"></div>
+            <div>
+              <h2 className="sm:text-5xl font-bold text-usee-grey ">
+                you can see
+              </h2>
+            </div>
             <div className="m-2"></div>
           </div>
           <div className="mt-10"></div>
