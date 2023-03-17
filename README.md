@@ -30,10 +30,8 @@ This project CSS is using:
 
 2. In the project directory, you can run:
 
-npm install
-npm run dev 
-
-markdown
+- `npm install`
+- `npm run dev` 
 
 ### Running Project Script
 
