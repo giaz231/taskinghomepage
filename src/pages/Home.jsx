@@ -47,7 +47,7 @@ const Home = () => {
                 An employee
               </h2>
             </div>
-            <div className="mx-20 px-20"></div>
+            <div className="mx-20 px-10"></div>
             <div>
               <h2 className="sm:text-5xl font-bold text-usee-grey ">
                 you can see
@@ -87,7 +87,10 @@ const Home = () => {
           {[...Array(Math.ceil(filteredUsers.length / usersPerPage))].map(
             (_, i) => (
               <li className="btn-group">
-                <button onClick={() => paginate(i + 1)} className="btn">
+                <button
+                  onClick={() => paginate(i + 1)}
+                  className="btn bg-usee-blue"
+                >
                   {i + 1}
                 </button>
               </li>
