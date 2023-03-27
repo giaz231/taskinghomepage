@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../component/Layout'
 import Card from '../component/Card'
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import Hero from "../component/Hero";
+import { useSelector } from "react-redux";
 
 const Home = () => {
   const [users, setUser] = useState([]);
-
   const [currentPage, setCurrentPage] = useState(1);
   const [usersPerPage] = useState(6);
   const [searchInput, setSearchInput] = useState("");
@@ -35,6 +35,9 @@ const Home = () => {
     userList();
   }, []);
 
+  // cek
+  // const filter = useSelector((state) => state);
+  // console.log(filter);
   return (
     <Layout>
       <Hero />
@@ -71,7 +74,9 @@ const Home = () => {
       <div className="flex flex-wrap justify-center gap-10 mt-10">
         {currentUsers.map((item) => (
           <Card
+            full={item}
             name={item.name}
+            key={item.id}
             company={item.company.name}
             email={item.email}
             phone={item.phone}
@@ -85,7 +90,7 @@ const Home = () => {
         <ul className="pagination">
           {[...Array(Math.ceil(filteredUsers.length / usersPerPage))].map(
             (_, i) => (
-              <li className="btn-group">
+              <li className="btn-group" key={i}>
                 <button
                   onClick={() => paginate(i + 1)}
                   className="btn bg-usee-blue"

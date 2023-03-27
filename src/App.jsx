@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Favorites from './pages/Favorites';
 
 
-
 const App = () => {
   return (
     <BrowserRouter>
